@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BasicTimerApp</string>
+    <string name="input_hint">Time in minutes</string>
+	<string name="timer_expired">Timer expired</string>
+	<string name="xx_remaining">Remaining time %s</string>
+	<string name="btn_start">Start</string>
+</resources>

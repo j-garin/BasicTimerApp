@@ -87,6 +87,9 @@ class TimerViewModel(private val prefs: SharedPreferences) : ViewModel() {
 		}
 	}
 
+	override fun onCleared() {
+		timer?.cancel()
+	}
 
 	private sealed class Action {
 		class InputChanged(val input: String) : Action()
